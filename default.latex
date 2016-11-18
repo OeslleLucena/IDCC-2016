@@ -24,14 +24,14 @@ $endif$
 $for(author)$
 \author{$author.name$}
 $if(author.affil)$
-\affil($author.affil$)
+\affil{$author.affil$}
 $endif$
 $endfor$
 
 \date{$date$}
 
 $if(correspondence)$
-\correspondence{$correspondence$}
+\correspondence{$correspondence.name$, $correspondence.postal$. Email: \email{$correspondence.email$}}
 $endif$
 
 
@@ -41,7 +41,7 @@ $if(title)$
 $endif$
 
 $if(abstract)$
-\section{abstract}
+\section{Abstract}
 $abstract$
 $endif$
 
