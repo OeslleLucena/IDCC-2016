@@ -18,9 +18,9 @@ abstract: The combination of increasing demands for more systematic data managem
 
 acknowledgements: This work has been partially supported through funding from the National Science Foundation (#IIA-1301346)
 
-conference: American Geophysical Union Annual Meeting. San Francisco, CA. December 12-16, 2016. 
+conference: International Digital Curation Conference. Edinburgh, Scotland. February 20-23, 2017. 
 
-bibliography: ./2016-12_AGUPoster.bib
+bibliography: ./2017-02_IDCCPoster.bib
 
 link-citations: false
 
@@ -31,45 +31,66 @@ target-figures: 4
 
 # Introduction
 
-
- 
-
-## Work to Date
-
- 
+Thus far the focus of the project's work has been on developing a framework within which the team can discuss the concept of *agile data curation* with the community, and iteratively evolving that framework through a series of meeting sessions, workshops and presentations that have been given at multiple venues including the American Geophysical Union (2014, 2015), Federation of Earth Science Information Partners Meeting (2016), Research Data Alliance (2014, 2015, 2016), and SciDataCon (2016). In these various activities the team has worked on communicating the conceptual framework for our vision of agile data curation, presented a variety of initial values and principles derived from those defined in the *Manifesto for Agile Software Development* [@beck_manifesto_2001], and solicited the presentation of data management projects that exemplify (either intentionally or unintentionally) these principles. The purpose of the presentation below is to expand this discussion to a broader international and disciplinary audience in support of moving forward with soliciting input into the definition of a set of shared values and principles, and collection of illustrative case studies in support of the development of design patterns that may be applied to diverse data curation problems. 
 
 # Values and Principles
 
-![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_????] for .](placeholder.png)
+At the foundation of a conceptual mapping between *Agile Software Development* and *Agile Data Curation* the primary focus is not on the various agile software development methodologies that have been developed, but instead on the underlying values and principles [@beck_manifesto_2001] that have been identified as a foundation for multiple methodologies identified as *agile*. Below are some initial *agile data curation* values and principles that the authors have developed as a point of departure for a community discussion.  
 
+## Mapping of Agile Software Development Values into Data Curation
 
+**Agile Software Development**
 
+* *Individuals and interactions* over processes and tools
+* *Working software* over comprehensive documentation
+* *Customer collaboration* over contract negotiation
+* *Responding to change* over following a plan[^agilePrinciples]
 
-# 
+**Agile Data Curation**
 
-Vivamus efficitur eros et luctus porttitor. Aenean non urna semper, sollicitudin odio sed, ullamcorper augue. Ut malesuada lorem tortor, a posuere urna tempus at. Suspendisse a lorem odio. Integer non metus eu lacus maximus malesuada vel sit amet purus. Maecenas lacinia nisl in justo pretium cursus sed sed mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. [@gamma_design_1995]
+* *Individuals and interactions* over processes and tools
+* *Discoverable, understandable and usable data* over comprehensive documentation
+* *User collaboration* over contract negotiation
+* *Responding to change* over following a plan
+
+## Mapping of Agile Software Development Principles into Data Curation {#principles}
+
+**Agile Software Development Principles**
+
+* Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+* Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+* Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+* Business people and developers must work together daily throughout the project.
+* Build projects around motivated individuals.  Give them the environment and support they need, and trust them to get the job done.
+* The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+* Working software is the primary measure of progress.
+* Agile processes promote sustainable development.  The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+* Continuous attention to technical excellence and good design enhances agility.
+* Simplicity--the art of maximizing the amount of work not done--is essential.
+* The best architectures, requirements, and designs emerge from self-organizing teams. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+**Agile Data Curation Principles**
+
+* Maximize the impact of research data through accelerated capacity for discovery, access and use of valuable data
+* Expect unanticipated needs for and uses of research data (and documentation) and develop flexible systems to support new uses and users without significant modifications
+* Facilitate automated interaction with data and metadata assets through well documented public web services that enable disintermediated use and reuse of research data
+* Data creators and data curators should work closely throughout planning, research and preservation activities to ensure the most efficient and streamlined process
+* Identify key individuals in a data curation project that have the requisite knowledge and motivation to do the job and get out of their way
+* Identify the most effective method(s) for maintaining close communication and *use* them
+* Delivery, access, use and citation of research data are the primary measures of success
+* Design principles that enable steady delivery of incremental improvements to research data discovery, access and use should be consistent with a sustainable level of effort and funding from sponsors, data creators and curators, and users
+* Continuous attention to technical excellence and good design enhances agility
+* Start with the basics and only make systems more complex as needed, while maintaining a low bar to entry
+* Continuously work to develop and evolve a community of data providers, curators and users that all participate in the ongoing evolution of the research data systems that they interact with
+
+# Case Studies into Design Patterns
+
+Below is an illustration of an initial set of existing design patterns from a software development context that can provide elements for addressing elements of a combination of research and data lifecycles, the OAIS archival framework, and the capabilities of a specific data management, discovery and access platform [the Geographic Storage, Transformation and Retrieval Engine - GSToRE - (bottom - @_gstore_2016; @benedict_geographic_2017)] developed in support of a specific set of research and application requirements 
+
  
-![Proposed *Agile Data Curation* design pattern elements.](placeholder.png)
+![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns [middle - @gamma_design_1995, pp 135, 185; @schwinn_design_2005, pp 476] and corresponding linkages between the OAIS Framework [upper right - @book_reference_2012;@_iso_2012; @oclc_open_2014] and an Illustration (upper left) of the Intersection of the Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] ](Composite-DesignPatternMapping.png){width=8in}
 
 
-Ut blandit nisl est, sit amet tempus odio pellentesque vitae. Sed auctor ornare diam, sit amet vehicula massa tristique in. Morbi mollis elit risus, id pretium dui gravida varius. Curabitur quis tristique odio. Vivamus nec erat non turpis faucibus luctus. Nunc a ante vitae massa commodo semper sed vel dui. Nulla accumsan odio et diam vestibulum viverra. Curabitur sed lorem eget velit feugiat cursus at cursus mauris. Nam dapibus nisl non quam maximus gravida. Integer semper cursus urna id ultricies. Cras imperdiet enim quis augue maximus, eu condimentum diam facilisis. Etiam et massa sodales elit sollicitudin auctor quis vitae purus. Maecenas vitae lacus tortor. Vestibulum rhoncus congue ullamcorper. Donec in aliquam nibh, ac suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-
-# Illustration of the Design Pattern Conceptual Model to a Developed Data Management, Discovery and Access Platform - GSToRE
-
-
- 
-![The Geographic Storage, Transformation and Retrieval Engine (GSToRE) Platform .](placeholder.png)
-
-
-
-![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns.](placeholder.png)
-
-Duis mauris urna, vulputate ac ex vitae, rhoncus lobortis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dignissim purus lacus, ut ultrices eros varius et. Mauris dictum cursus diam, vitae pharetra felis tincidunt pharetra. Suspendisse sem enim, lacinia eget consectetur ut, tempus vel erat. Proin vitae enim sit amet urna elementum rutrum. Nullam consequat eros sit amet est vestibulum rhoncus. Donec ullamcorper tempor finibus. Proin vestibulum nulla ut metus pretium ultricies. Vestibulum diam enim, laoreet eu luctus nec, dignissim sit amet nibh. Aenean et imperdiet turpis, suscipit posuere orci. Phasellus sed velit maximus, facilisis magna vitae, ornare elit. In hac habitasse platea dictumst. Ut non lacus eu tortor varius aliquet. Sed eu urna blandit, porta nibh in, mattis nibh.
-
-# Conclusions
-
-Sed auctor nisl elementum leo eleifend, vel tincidunt eros vehicula. Duis consectetur augue erat, a bibendum nisi efficitur ac. Maecenas in justo vitae velit efficitur gravida ac in nisl. Pellentesque sit amet nunc magna. Aliquam mollis vulputate scelerisque. Aenean et scelerisque tellus. Donec et metus ante. Mauris dapibus lectus eget leo pretium, sit amet pharetra urna blandit. Suspendisse scelerisque ante mi, quis imperdiet quam suscipit quis. Mauris felis augue, rutrum a dignissim non, semper eu turpis. Donec tempus neque non dignissim dignissim. Duis semper ante risus. Vivamus id consectetur lectus. In enim odio, iaculis et libero ac, aliquam dapibus mauris. Cras eu velit ornare, tincidunt dolor quis, pellentesque nulla.
-
-# Bibliography
+## Bibliography
 &nbsp;
 

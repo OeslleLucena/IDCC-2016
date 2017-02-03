@@ -4,7 +4,7 @@ pandoc -o idcc_abstract.tex --template default.latex idcc_abstract.md
 pandoc -s -S \
 --normalize \
 --filter pandoc-citeproc \
---csl ./science.csl \
+--csl ./elsevier-harvard.csl \
 --template=poster.tex \
 -f markdown \
 -o 2017-02_IDCCPoster.pdf \
@@ -13,7 +13,7 @@ pandoc -s -S \
 pandoc -s -S \
 --normalize \
 --filter pandoc-citeproc \
---csl ./science.csl \
+--csl ./elsevier-harvard.csl \
 --template=poster.tex \
 -f markdown \
 -o 2017-02_IDCCPoster.tex \
