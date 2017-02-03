@@ -85,11 +85,14 @@ At the foundation of a conceptual mapping between *Agile Software Development* a
 
 # Case Studies into Design Patterns
 
-Below is an illustration of an initial set of existing design patterns from a software development context that can provide elements for addressing elements of a combination of research and data lifecycles, the OAIS archival framework, and the capabilities of a specific data management, discovery and access platform [the Geographic Storage, Transformation and Retrieval Engine - GSToRE - (bottom - @_gstore_2016; @benedict_geographic_2017)] developed in support of a specific set of research and application requirements 
+Below is an illustration of an initial set of existing design patterns from a software development context that can provide elements for addressing elements of a combination of research and data lifecycles, the OAIS archival framework, and the capabilities of a specific data management, discovery and access platform [the Geographic Storage, Transformation and Retrieval Engine - GSToRE - @_gstore_2016; @benedict_geographic_2017] developed in support of a specific set of research and application requirements 
 
  
-![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns [middle - @gamma_design_1995, pp 135, 185; @schwinn_design_2005, pp 476] and corresponding linkages between the OAIS Framework [upper right - @book_reference_2012;@_iso_2012; @oclc_open_2014] and an Illustration (upper left) of the Intersection of the Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] ](Composite-DesignPatternMapping.png){width=8in}
+![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns [middle - @gamma_design_1995, pp 135, 185; @schwinn_design_2005, pp 476] and corresponding linkages between the OAIS Framework [upper right - @book_reference_2012;@_iso_2012; @oclc_open_2014] and an Illustration (upper left) of the Intersection of the Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] ](Composite-DesignPatternMapping.png){width=7.5in}
 
+# How You Can Participate
+
+Through our Open Science Framework collaboration site [(http://osf.io/r48t3)](http://osf.io/r48t3) you can complete our anonymous online survey for capturing feedback on the values and principles listed above and provide (separately) your contact information if you would like to join our team in moving forward on this project. 
 
 ## Bibliography
 &nbsp;
